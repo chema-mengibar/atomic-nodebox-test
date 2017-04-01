@@ -1,9 +1,9 @@
 # atomic-nodebox-test
 Test for atomic webdevelopment ( Nodejs integration with NodeBox and Python )
 
-###Description:
+### Description:
 I wrote two python blocks to parse the html code and replace the values:
-####Block A - Replace all characters ~ , and put values in the same order
+#### Block A - Replace all characters ~ , and put values in the same order
 values: Ferrari, car, red
 template:
 ```
@@ -21,7 +21,7 @@ Result:
      <p class="color"> red </p>
 </span>
 ```
-####Block B - Repeat a structure for each item
+#### Block B - Repeat a structure for each item
 values; Batman, Superman, Spiderman
 structure:
 ```
@@ -36,7 +36,7 @@ result:
 ```
 There is also the posibility to nest both Blocks each other
 
-###Node.js and NodeBox3:
+### Node.js and NodeBox3:
 
 Use Gulp tasks with BrowserSync to refresh the browser when files changes.
 In Nodebox3, I save the result of all html codes in an index.html.
