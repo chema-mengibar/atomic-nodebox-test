@@ -24,7 +24,9 @@ Result:
 Block B - Repeat a structure for each item
 values; Batman, Superman, Spiderman
 structure:
-```<li class="superhero"> ~ </li>```
+```
+<li class="superhero"> ~ </li>
+```
 
 result:
 ```
