@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="8fd17987-ca23-4277-ad2e-6bf760cbfbb2">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <link href="python:read_txt.py" rel="functions"/>
+    <link href="python:list_code.py" rel="functions"/>
+    <node name="root" prototype="core.network" renderedChild="SAVE_FILE1">
+        <node function="read_txt/load" name="LOAD_CODE1" position="6.00,-17.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/blocks/_header.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE10" position="23.00,-24.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/pieces/_button_pagescroll.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE2" position="8.00,-21.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/pieces/_button_primary.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE3" position="-9.00,-16.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/blocks/_nav.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE4" position="-11.00,-19.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/modules/_nav_list.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE5" position="-12.00,-21.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/pieces/_nav_menu_item.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE6" position="21.00,-16.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/blocks/_section_about.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE7" position="15.00,-24.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/pieces/_h2.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE8" position="21.00,-19.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/modules/_col8_container.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_CODE9" position="19.00,-24.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/pieces/_text-faded.html" widget="file"/>
+        </node>
+        <node function="read_txt/load" name="LOAD_FILE2" position="6.00,-4.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../atomic/_index.html" widget="file"/>
+        </node>
+        <node function="list_code/loop_object" image="generator.png" name="LOOP_OBJECT" outputType="string" position="-28.00,-21.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_object" image="generator.png" name="LOOP_OBJECT1" outputType="string" position="-15.00,-19.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES" outputType="string" position="-31.00,-21.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES1" outputType="string" position="3.00,-14.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES10" outputType="string" position="22.00,-22.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES2" outputType="string" position="3.00,-1.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES3" outputType="string" position="6.00,-19.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES4" outputType="string" position="-10.00,-12.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES5" outputType="string" position="-13.00,-16.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES6" outputType="string" position="20.00,-12.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES7" outputType="string" position="17.00,-16.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES8" outputType="string" position="14.00,-22.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="list_code/loop_values" name="LOOP_VALUES9" outputType="string" position="18.00,-22.00">
+            <port description="" label="" name="lst_value" range="list" type="list" widget="none"/>
+            <port description="" label="" name="str_obj" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="read_txt/save" name="SAVE_FILE" position="-31.00,-17.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../index.html" widget="file"/>
+            <port description="" label="" name="content" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node function="read_txt/save" name="SAVE_FILE1" position="3.00,2.00">
+            <port description="" label="" name="filename" range="value" type="string" value="../index.html" widget="file"/>
+            <port description="" label="" name="content" range="value" type="string" value="" widget="string"/>
+        </node>
+        <node name="combine1" position="2.00,-17.00" prototype="list.combine"/>
+        <node name="combine2" position="16.00,-18.00" prototype="list.combine"/>
+        <node name="concatenate1" position="4.00,-7.00" prototype="string.concatenate"/>
+        <node name="make_strings2" position="-31.00,-19.00" prototype="string.make_strings">
+            <port name="string" type="string" value="ferrari.jpg,Ferrari deluxe, 100.000"/>
+            <port name="separator" type="string" value=","/>
+        </node>
+        <node name="make_strings3" position="-16.00,-21.00" prototype="string.make_strings">
+            <port name="string" type="string" value="Cats,Dogs,Birds"/>
+            <port name="separator" type="string" value=","/>
+        </node>
+        <node name="string1" position="-1.00,-19.00" prototype="string.string">
+            <port name="value" type="string" value="Hello!"/>
+        </node>
+        <node name="string2" position="2.00,-19.00" prototype="string.string">
+            <port name="value" type="string" value="Start Bootstrap can "/>
+        </node>
+        <node name="string3" position="4.00,-21.00" prototype="string.string">
+            <port name="value" type="string" value="Pincha aqui"/>
+        </node>
+        <node name="string4" position="14.00,-26.00" prototype="string.string">
+            <port name="value" type="string" value="Temporavit et sideria."/>
+        </node>
+        <node name="string5" position="18.00,-26.00" prototype="string.string">
+            <port name="value" type="string" value="Start Bootstrap has everything    you need to get your new website up and running in no time!    All of the templates and themes on Start Bootstrap are open source,  free to download, and easy to use. No strings attached!"/>
+        </node>
+        <node name="string6" position="22.00,-26.00" prototype="string.string">
+            <port name="value" type="string" value="Click herae!"/>
+        </node>
+        <conn input="combine1.list1" output="string1"/>
+        <conn input="combine1.list2" output="string2"/>
+        <conn input="LOOP_VALUES1.lst_value" output="combine1"/>
+        <conn input="LOOP_VALUES2.str_obj" output="LOAD_FILE2"/>
+        <conn input="SAVE_FILE1.content" output="LOOP_VALUES2"/>
+        <conn input="LOOP_VALUES1.str_obj" output="LOAD_CODE1"/>
+        <conn input="LOOP_VALUES3.lst_value" output="string3"/>
+        <conn input="LOOP_VALUES3.str_obj" output="LOAD_CODE2"/>
+        <conn input="LOOP_VALUES2.lst_value" output="concatenate1"/>
+        <conn input="LOOP_OBJECT1.lst_value" output="make_strings3"/>
+        <conn input="LOOP_OBJECT1.str_obj" output="LOAD_CODE5"/>
+        <conn input="LOOP_VALUES5.lst_value" output="LOOP_OBJECT1"/>
+        <conn input="LOOP_VALUES5.str_obj" output="LOAD_CODE4"/>
+        <conn input="LOOP_VALUES4.lst_value" output="LOOP_VALUES5"/>
+        <conn input="LOOP_VALUES4.str_obj" output="LOAD_CODE3"/>
+        <conn input="concatenate1.string1" output="LOOP_VALUES4"/>
+        <conn input="LOOP_VALUES7.str_obj" output="LOAD_CODE8"/>
+        <conn input="LOOP_VALUES6.lst_value" output="LOOP_VALUES7"/>
+        <conn input="LOOP_VALUES6.str_obj" output="LOAD_CODE6"/>
+        <conn input="LOOP_VALUES8.str_obj" output="LOAD_CODE7"/>
+        <conn input="LOOP_VALUES9.str_obj" output="LOAD_CODE9"/>
+        <conn input="LOOP_VALUES10.str_obj" output="LOAD_CODE10"/>
+        <conn input="combine2.list1" output="LOOP_VALUES8"/>
+        <conn input="combine2.list2" output="LOOP_VALUES9"/>
+        <conn input="combine2.list3" output="LOOP_VALUES10"/>
+        <conn input="LOOP_VALUES7.lst_value" output="combine2"/>
+        <conn input="concatenate1.string3" output="LOOP_VALUES6"/>
+        <conn input="LOOP_VALUES8.lst_value" output="string4"/>
+        <conn input="LOOP_VALUES9.lst_value" output="string5"/>
+        <conn input="LOOP_VALUES10.lst_value" output="string6"/>
+        <conn input="combine1.list3" output="LOOP_VALUES3"/>
+        <conn input="concatenate1.string2" output="LOOP_VALUES1"/>
+    </node>
+</ndbx>
