@@ -6,12 +6,13 @@ I wrote two python blocks to parse the html code and replace the values:
 Block A - Replace all characters ~ , and put values in the same order
 values: Ferrari, car, red
 template:
+<code>
 <span>
       <h1> ~ </h1>
      <p class="type"> ~ </p>
      <p class="color"> ~ </p>
 </span>
-
+</code>
 Result:
 <span>
       <h1> Ferrari </h1>
