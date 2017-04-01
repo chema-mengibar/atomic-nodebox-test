@@ -6,30 +6,32 @@ I wrote two python blocks to parse the html code and replace the values:
 Block A - Replace all characters ~ , and put values in the same order
 values: Ferrari, car, red
 template:
-<code>
+```
 <span>
       <h1> ~ </h1>
      <p class="type"> ~ </p>
      <p class="color"> ~ </p>
 </span>
-</code>
+```
 Result:
+```
 <span>
       <h1> Ferrari </h1>
      <p class="type"> car </p>
      <p class="color"> red </p>
 </span>
-
+```
 Block B - Repeat a structure for each item
 values; Batman, Superman, Spiderman
 structure:
-<li class="superhero"> ~ </li>
+```<li class="superhero"> ~ </li>```
 
 result:
+```
 <li class="superhero"> Batman </li>
 <li class="superhero"> Superman </li>
 <li class="superhero"> Spiderman </li>
-
+```
 There is also the posibility to nest both Blocks each other
 
 Node.js and NodeBox3:
